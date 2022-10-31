@@ -16,4 +16,4 @@ int main()
 double h(const double x, const double y) // визначення
 {
 	return (x * x + sin(x * y) + y * y) / (1 + x * x + y * x);
-}
+ }//
