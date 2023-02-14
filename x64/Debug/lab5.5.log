@@ -1,0 +1,14 @@
+﻿  Source.cpp
+C:\Users\User\source\repos\lab5.5\Source.cpp(23,5): error C2664: 'int max(std::string,int,int,int)': cannot convert argument 4 from 'std::ostringstream' to 'int'
+C:\Users\User\source\repos\lab5.5\Source.cpp(23,19): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Users\User\source\repos\lab5.5\Source.cpp(11,5): message : see declaration of 'max'
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31932\include\utility(51,26): message : could be '_Ty std::max(std::initializer_list<_Elem>)'
+C:\Users\User\source\repos\lab5.5\Source.cpp(23,5): message : '_Ty std::max(std::initializer_list<_Elem>)': expects 1 arguments - 4 provided
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31932\include\utility(48,26): message : or       '_Ty std::max(std::initializer_list<_Elem>,_Pr)'
+C:\Users\User\source\repos\lab5.5\Source.cpp(23,5): message : '_Ty std::max(std::initializer_list<_Elem>,_Pr)': expects 2 arguments - 4 provided
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31932\include\utility(41,6): message : or       'const _Ty &std::max(const _Ty &,const _Ty &) noexcept(<expr>)'
+C:\Users\User\source\repos\lab5.5\Source.cpp(23,5): message : 'const _Ty &std::max(const _Ty &,const _Ty &) noexcept(<expr>)': expects 2 arguments - 4 provided
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31932\include\utility(31,33): message : or       'const _Ty &std::max(const _Ty &,const _Ty &,_Pr) noexcept(<expr>)'
+C:\Users\User\source\repos\lab5.5\Source.cpp(23,5): message : 'const _Ty &std::max(const _Ty &,const _Ty &,_Pr) noexcept(<expr>)': expects 3 arguments - 4 provided
+C:\Users\User\source\repos\lab5.5\Source.cpp(23,5): message : while trying to match the argument list '(std::string, int, int, std::ostringstream)'
+C:\Users\User\source\repos\lab5.5\Source.cpp(61,12): warning C4552: '<<': result of expression not used
